@@ -1,0 +1,65 @@
+{
+	"name": "@huypui/sdk",
+	"version": "v0.1.0",
+	"description": "sdk name",
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"private": true,
+	"dependencies": {
+		"@rollup/plugin-json": "^4.1.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "rollup -c",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"sb": "storybook dev -p 6006",
+		"build-sb": "storybook build"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/core": "^7.19.1",
+		"@babel/preset-env": "^7.22.15",
+		"@babel/preset-react": "^7.22.15",
+		"@babel/preset-typescript": "^7.22.15",
+		"@rollup/plugin-commonjs": "^22.0.2",
+		"@rollup/plugin-node-resolve": "^14.1.0",
+		"@rollup/plugin-typescript": "^8.5.0",
+		"@storybook/addon-actions": "^7.4.1",
+		"@storybook/addon-essentials": "^7.4.1",
+		"@storybook/addon-interactions": "^7.4.1",
+		"@storybook/preset-scss": "^1.0.3",
+		"@storybook/react": "^7.4.1",
+		"@storybook/react-webpack5": "^7.4.1",
+		"@types/react": "^16.13.1",
+		"babel-loader": "^8.2.5",
+		"postcss": "^8.1.7",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"rollup": "^2.79.0",
+		"rollup-plugin-dts": "^4.2.2",
+		"rollup-plugin-peer-deps-external": "^2.2.4",
+		"rollup-plugin-postcss": "^4.0.2",
+		"rollup-plugin-terser": "^7.0.2",
+		"sass-loader": "^13.0.2",
+		"storybook": "^7.4.1",
+		"typescript": "^4.8.3"
+	},
+	"browser": {
+		"[module-name]": false
+	},
+	"resolutions": {
+		"string-width": "^4.2.3"
+	}
+}
